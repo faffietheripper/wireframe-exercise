@@ -1,0 +1,64 @@
+body {
+  background-color: aqua;
+}
+
+header {
+  width: 100%;
+  background-color: brown;
+  display: flex;
+}
+
+.header-container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  background-color: beige;
+}
+
+main {
+  width: 100%;
+}
+
+.main-container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  width: 100%;
+}
+
+.footer-container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.sub-banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.beside-single-image {
+  background-color: red;
+}
+
+.little-box {
+  background-color: blue;
+}
+
+footer {
+  background-color: brown;
+  margin: auto;
+}
