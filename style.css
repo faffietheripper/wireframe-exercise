@@ -1,11 +1,14 @@
 body {
-  background-color: aqua;
+  background-color: antiquewhite;
 }
 
 header {
+  padding: 30px;
   width: 100%;
-  background-color: brown;
+  background-color: teal;
+  padding: 2rem 0;
   display: flex;
+  margin-bottom: 30px;
 }
 
 .header-container {
@@ -13,15 +16,29 @@ header {
   max-width: 960px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
-nav {
+.header-nav-list {
   display: flex;
-  background-color: beige;
+  background-color: teal;
 }
 
+.header-nav-list-item {
+  margin-left: 2rem;
+}
+
+.hero-image {
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.hero-image img {
+  width: 100%;
+}
 main {
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .main-container {
@@ -34,31 +51,77 @@ footer {
   width: 100%;
 }
 
+.sub-banner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.sub-banner img {
+  width: 300px;
+  height: 375px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.single-image {
+  width: 480px;
+  width: 45%;
+  max-height: 100%;
+}
+.single-image img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.single-image:hover{
+  animation: slide;
+}
+.scrollable {
+  padding: 15px;
+  height: 350px;
+  overflow-y: scroll;
+  background-color: teal;
+  margin-bottom: 30px;
+}
+
+.beside-single-image {
+  background-color: antiquewhite;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  width: 45%;
+  height: 100%;
+}
+
+.section-header {
+  padding: 15px;
+  background-color: teal;
+}
+
+ .button {
+  color: black;
+  background-color: teal;
+  display: inline;
+  border-radius: 40px;
+} 
+
+.button:hover{
+  background-color: teal;
+  opacity: 50%;
+}
+
 .footer-container {
   width: 90%;
   max-width: 960px;
   margin: 0 auto;
 }
 
-.sub-banner {
-  display: flex;
-  justify-content: space-between;
-}
-
-section {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.beside-single-image {
-  background-color: red;
-}
-
-.little-box {
-  background-color: blue;
-}
-
 footer {
-  background-color: brown;
+  padding: 30px;
+  background-color: teal;
   margin: auto;
 }
